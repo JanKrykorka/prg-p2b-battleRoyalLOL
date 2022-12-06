@@ -12,10 +12,10 @@ namespace battleRoyal
 {
     class Enemy
     {
-        private int health;
-        private int maxHealth;
-        private int attackPower;
-        public Enemy(int health, int attack) 
+        protected double health;
+        protected double maxHealth;
+        protected double attackPower;
+        public Enemy(double health, double attack) 
         {
             this.health = health;
             this.maxHealth = health;
@@ -38,13 +38,13 @@ namespace battleRoyal
         }
 
 
-        public Enemy PickOpponent(Enemy[] opponents)
+        public virtual Enemy PickOpponent(Enemy[] opponents)
         {
             int i = Random.Shared.Next(opponents.Length);
             return opponents[i];
         }
 
-        public int ReceiveDamage(int incomingDamage)
+        public virtual double ReceiveDamage(double incomingDamage)
         {
             if (incomingDamage > health)
                 health = 0;
@@ -53,22 +53,29 @@ namespace battleRoyal
             return health;
         }
 
-        public int Attack( Enemy target)
+        public virtual double Attack( Enemy target)
         {
             Console.WriteLine(this + "hits" + target + "for" + attackPower);
             return target.ReceiveDamage(attackPower);
         }
+    }
 
+    class Fighter : Enemy
+    {
+        private string name; 
 
+        public Fighter(string name, double health,double attack)
+        {
+            this.name = name;
+            this.attack = attack * 0.2;
+        }
         
-
-
-     
-
-
-
-
-
-
+        public virtual double Attack( Enemy target)
+        {
+            Console.WriteLine(this + "hits" + target + "for" + attackPower);
+            return target.ReceiveDamage(attackPower);
+        }
+    
+    
     }
 }

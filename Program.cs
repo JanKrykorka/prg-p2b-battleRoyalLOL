@@ -9,11 +9,11 @@ namespace battleRoyal
 
             Enemy JoeNutz = new Enemy(100, 20);
             Enemy MikeHawkHertz = new Enemy(120, 10);
-            // Fighter BigusNIgus = new Fighter("Bigus Gayus Nigga barlsus", 100) Attack*0.25)
+            //Enemy BigusNIgus = new Fighter("Bigus Gayus Nigga Barlsus", 100, 10)
             // Knight MikeOxlong = new Knight("Mike Oxlong", 100,) RecieveDamage*0.10)
             // Sorcerer BenDover = new Sorcerer("Ben Dover", 100, 100(Mana))
             // Beast
-            Enemy[] combatants = new Enemy[] { JoeNutz, MikeHawkHertz };
+            Enemy[] combatants = new Enemy[] { JoeNutz, MikeHawkHertz};
             int combAlive = combatants.Length;
             int round = 0;
             while (combAlive > 1)
@@ -34,6 +34,8 @@ namespace battleRoyal
                 Console.WriteLine("Joe Nutz's Health bar be like: {0}", JoeNutz.HealthBar());
                 Console.WriteLine("Mike Hawk Hertz livin: {0}", MikeHawkHertz.HeLivin);
                 Console.WriteLine("Mike Hawk Hertz's Health bar be like: {0}", MikeHawkHertz.HealthBar());
+                //Console.WriteLine("Bigus Nigus livin: {0}", BigusNIgus.HeLivin);
+                //Console.WriteLine("Bigus Nigus Hertz's Health bar be like: {0}", BigusNIgus.HealthBar());
             }
         }
     }
