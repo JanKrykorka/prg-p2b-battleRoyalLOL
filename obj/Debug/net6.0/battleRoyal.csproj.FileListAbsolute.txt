@@ -1,0 +1,15 @@
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\bin\Debug\net6.0\battleRoyal.exe
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\bin\Debug\net6.0\battleRoyal.deps.json
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\bin\Debug\net6.0\battleRoyal.runtimeconfig.json
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\bin\Debug\net6.0\battleRoyal.dll
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\bin\Debug\net6.0\battleRoyal.pdb
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.csproj.AssemblyReference.cache
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.AssemblyInfoInputs.cache
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.AssemblyInfo.cs
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.csproj.CoreCompileInputs.cache
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.dll
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\refint\battleRoyal.dll
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.pdb
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\battleRoyal.genruntimeconfig.cache
+C:\Users\jankr\source\repos\battleRoyal\battleRoyal\obj\Debug\net6.0\ref\battleRoyal.dll
